@@ -22,3 +22,4 @@
 % git pull origin Yvonne
 % git log
 
+% git commit --amend

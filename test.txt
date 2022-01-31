@@ -1,0 +1,24 @@
+% touch <filename>
+% git init
+% git status
+% git add <filename>
+% git status
+% git commit -m "Your message about the commit"
+//here suppose to create a new branch but it will be delete when I link to GitHub so I will create later
+
+% git remote add origin https://github.com/E-voni/myrepo.git //the link is given by github
+% git branch -M Yvonne
+% git push -u origin Yvonne
+
+//creating new branch
+% git checkout -b my-new-branch
+% touch text.txt
+% git commit -m "Your message about the commit"
+% git add text.txt
+% git commit -m "Your message about the commit"
+% git push origin my-new-branch
+
+//get changes on GitHub back to computer
+% git pull origin Yvonne
+% git log
+
